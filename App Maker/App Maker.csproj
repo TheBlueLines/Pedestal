@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>PedestalAppMaker</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PMF\PMF.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Auram">
+      <HintPath>..\..\Auram\API\bin\Debug\net8.0\Auram.dll</HintPath>
+    </Reference>
+    <Reference Include="Debris">
+      <HintPath>..\..\Debris\bin\Debug\net8.0\Debris.dll</HintPath>
+    </Reference>
+    <Reference Include="Tools">
+      <HintPath>..\..\Tools\bin\Debug\net8.0\Tools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
